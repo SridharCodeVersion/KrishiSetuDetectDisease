@@ -1,0 +1,77 @@
+I am building a web application named KRISHI-SETU: AI Disease Detection & Treatment Recommender for SIH 2025 hackathon. The purpose is to detect crop diseases using AI and provide disease information, prevention, and treatment recommendations in a farmer-friendly, professional, and visually attractive way.
+
+👉 Your task is to design and generate the front-end dashboard UI/UX + AI-powered chatbot assistant with outstanding visuals, interactivity, and hackathon-ready polish. The system must be easy to navigate, comprehensive, and farmer-first.
+
+🔑 Key Features & Requirements
+1. Dashboard Structure & Layout
+
+Modern, clean, farmer-friendly interface with separate tiles/cards for each feature.
+
+Easy navigation via sidebar or top nav bar.
+
+Interactive cards, charts, and progress visuals.
+
+Landing Page: Outstanding frontpage with KRISHI-SETU branding (logo, slogan, CTA buttons).
+
+2. Core Dashboard Features (Each in its own Tile/Card):
+
+AI Disease Detection: Upload crop images → AI model detects disease.
+
+Prevention & Treatment Recommendations: Clear, step-by-step advice (organic, chemical, sustainable).
+
+Crop Health Dashboard: Real-time visuals of crop health status.
+
+Weather & Soil Insights: Localized weather, soil health, irrigation tips.
+
+Community/Expert Connect: Chat with experts or community help desk.
+
+Knowledge Hub: Articles, tutorials, videos on crop care & modern farming.
+
+Reports & Analytics: Disease history, treatment logs, downloadable reports.
+
+3. AI Chatbot Assistant (New Feature)
+
+Dedicated AI chatbot panel integrated into dashboard.
+
+Specialized in crop diseases, symptoms, causes, and treatment methods.
+
+Voice Input Support: Farmers can ask queries via voice.
+
+Multilingual Support: Every chatbot message should have a translation option in 5–10 major Indian languages (e.g., Hindi, Tamil, Telugu, Bengali, Marathi, Punjabi, Kannada, Gujarati, Malayalam, Odia).
+
+Text-to-Speech Option: Replies can be read aloud for low-literacy farmers.
+
+User-Friendly Flow: Large buttons, simple icons, and farmer-centric design.
+
+4. UI/UX Guidelines
+
+Color Palette: Earthy & natural (greens, yellows, browns) with a modern, professional feel.
+
+Typography: Readable fonts; support regional language fonts.
+
+Interactivity: Smooth animations, hover effects, clickable cards.
+
+Mobile-Friendly: Must look equally great on smartphones and tablets.
+
+Accessibility: Large buttons, contrast compliance, simple layouts.
+
+5. Enhancements & Advanced Features
+
+Search Functionality for diseases, crops, treatments.
+
+Multi-language toggle across the dashboard.
+
+Offline Support (basic functionality when internet is weak).
+
+Downloadable Disease/Treatment Guides in PDF format.
+
+6. Output Expectations
+
+Generate production-ready React code using TailwindCSS + shadcn/ui components.
+
+Deliver professional, hackathon-ready UI with dummy placeholders (sample diseases, images, weather data).
+
+Code should be well-structured, modular, and demo-ready.
+
+⚡ Final Note:
+Make this dashboard & chatbot visually striking, highly interactive, and farmer-friendly. It should feel like a flagship AI-powered agriculture assistant that impresses hackathon judges — modern design, comprehensive features, smooth usability, and multilingual inclusivity.
