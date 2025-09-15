@@ -3,6 +3,11 @@ import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
+
+// ES module __dirname
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 app.use(express.json());
@@ -50,11 +55,14 @@ app.use((req, res, next) => {
   } else {
     // Only serve static if build exists
     const publicDir = path.join(__dirname, "public"); // matches Vite outDir
-    if (fs.existsSync(publicDir) && fs.existsSync(path.join(publicDir, "index.html"))) {
+    const indexFile = path.join(publicDir, "index.html");
+
+    if (fs.existsSync(publicDir) && fs.existsSync(indexFile)) {
       serveStatic(app);
       log("✅ Serving static files from " + publicDir);
     } else {
       log("⚠️  Build directory not found: " + publicDir);
+      log("⚠️  Make sure to run `npm run build` before starting the server");
     }
   }
 
